@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Card Game</title>
+</head>
+<body style="overflow-x: hidden; background-image: url(ba.jpg); background-size: 100%;">
+    <!--heading + heading logos-->
+<div class="heading mb-5">
+<img src="icons8-heart-64.png" class="heading-logo ms-3 " >
+<img src="icons8-clubs-52.png" class="heading-logo">
+    Card Game
+<img src="icons8-diamond-64.png" class="heading-logo">
+<img src="icons8-heart-64.png" class="heading-logo"></div>
+
+    <!--background blur-->
+    <div class="background"></div>
+    <!--side glow-->
+<div class="side-line line-light"></div>
+<div class="side-line2 line-light"></div>
+
+<!--user name-->
+<div class="user1">Player 1</div>
+<div class="user2">Player 2</div>
+
+<!--player 1 Cards-->
+<img id="cardd" class="cards" src="cardbackground1.jpg" ></img>
+
+<!--player 2 Cards-->
+<img id="cardd2" class="cards2" src="cardbackground1.jpg"></img>
+
+<!---result Heading-->
+<div class="result">Winner</div>
+
+<div class="winner" id="winner"></div>
+
+
+<!--player1 output-->
+<div class="display" id="output"></div>
+
+<!---player2 output -->
+<div class="display2" id="output2"></div>
+
+
+<!---button for cards and number---->
+<button class="button rounded-5 fw-bold" id="button" onclick="randomfunction()">Shuffle Card</button>
+
+</body>
+<script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</html>
